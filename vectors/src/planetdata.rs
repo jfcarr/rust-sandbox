@@ -7,8 +7,8 @@
 /// * `axis` -- Semi-major axis of the orbit.
 /// * `incl` -- Orbital inclination.
 /// * `node` -- Longitude of the ascending node.
-/// * `theta0` -- ?
-/// * `v0` -- ?
+/// * `theta0` -- Angular diameter at 1 AU.
+/// * `v0` -- Visual magnitude at 1 AU.
 pub struct PlanetInfo {
     pub name: String,
     pub tp: f64,
